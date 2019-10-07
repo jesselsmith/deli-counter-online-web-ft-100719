@@ -7,7 +7,6 @@ def line(katz_deli)
     katz_deli.each_with_index{ |name, index|
       line_description << " #{index + 1}. #{name}"
     }
-    line_description << "."
   end
   puts line_description
 end

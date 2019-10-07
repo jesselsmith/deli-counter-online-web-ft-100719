@@ -1,4 +1,4 @@
-def line(katz_deli) 
+def line(katz_deli)
   line_description = "The line is currently"
   if katz_deli.size == 0
     line_description << " empty."

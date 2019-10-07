@@ -9,5 +9,5 @@ def line(katz_deli)
     }
     line_description << "."
   end
-  line_description
+  puts line_description
 end
